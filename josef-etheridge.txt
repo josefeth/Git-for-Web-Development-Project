@@ -1,0 +1,159 @@
+https://codepen.io/josefeth/pen/mdyyPrW?editors=1100
+
+Copy the questions below into the firstname-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    This would be all the tags that we use...<h1>,<p>,<section>
+
+    2. What is HTML used for? 
+    Hypertext markup language (creates electronic documents)
+
+    3. What is an attribute and where do we put it? 
+    an attribute is < img src(attribute is the src) or href they come after the tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    <h1> is for the heading and should only be used 1 time.
+
+    5. Name two tags that have required attributes
+    scr and href
+
+    6. What do we put in the head of our HTML document?
+    Valid <head> elements include meta , link , title , style , script , noscript , and base .
+
+    7. What is an id? 
+    An id is used to reference other parts of the webpage. Products, services, contact form. 
+
+    8The id attribute can be used on any HTML element.The id value must contain at least one character, and must not contain whitespace (spaces, tabs, etc.)
+
+    9. How many times can I use the same id on a page? 
+    1 time
+
+    10. What is a class? 
+    It selects elements with a class that you choose to put them on .class{
+
+    }
+
+    11. What elements can I add a class to? 
+    the class attribute can be used on any HTML elementon any HTML element. execpt <base>, <head>, <html>, <meta>, <param>, <script>, <style>, and <title>.
+
+    12. How many times can I use the same class on a page? 
+    as many as you want
+
+    13. How do I get my link to open in a new tab?
+    target="_blank"
+
+    14. What is the alt attribute used for? 
+    It specify alternative text for screen reader, ect.
+
+    15. How do I reference an id?
+    with a #
+
+    16. What is the difference between a section and a div
+     section splits the website in section and a div tag is used as a container to hold stuff
+
+    17. What is CSS used for? 
+    Styling our websites
+
+    18. How to we select an element? Example - every h2 on the page
+    h2{
+
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    You will use a id to reference parts of your webpage and a class is used to style our websites, like changing the color or the size of something.
+
+    20. How do we select classes in CSS?
+    .class-name{
+
+    }
+
+    21. How do we select a p element with a single class of “human””?
+    .human p{
+
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+    The parent child selector selects all elements that are a direct child of the specified element. Lets say I want to change the color of the links in one <p> tag, not all of them. I would select the .class-name and then p then a.
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar.div a{
+
+    }
+
+    24. What is a pseudo selector?
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected elements.
+
+    25. What do we use the change the spacing between lines?
+    line-height:
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{
+    border:1px dotted #black;
+    }
+
+    29. How do I select everything on the page? 
+    *{
+
+    }
+
+    30. How do I write a comment in CSS?
+    */ words here */
+
+    31. How do I find out what file I am in, when I am using the command line? pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls -la
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm <file> There is no warning when you remove it and it deletes it forever.
+
+    34. Why should I use version control? 
+    Version control helps teams solve problems, track there code and help provent problems from accuring with everyones code.
+
+    35. How often should I commit to github?
+    Atleast every 15 min. or sooner
+
+    36. What is the command we would use to push our repo up to github? 
+    git push
+
+    37. Walk me through Lambda's git flow. 
+    1.I would fork the project
+    2.make sure my name is in the corner
+    3.Add TL or collaborator
+    4.clone repo using the https://
+    5. Now I open up the command line and go to my main dir
+    6.git clone and add the https address
+    7.make sure i am in the right repo with cd <file>
+    8. git checkout -b 'firstname-lastname'
+    9. touch to add a folder
+    10. git branch to make sure im in the right branch
+    11. git add .
+    12. git commit -m 'put some text here'
+    13. git push -u origin <filename>
+    i think thats it.
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    In HTML programming, a block-level element is any element that starts on a new line, like a paragraph, and takes up the full width of a page, from left to right. A block-level element can take up one line or multiple lines and has a line break before and after the element.
+
+    2. What happens when an element is positioned absolutely? 
+    Absolutely is relative to the parent and changes teh layout around it.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    use the traditional box model and adjust the margin
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display block: <p> <div> <section>
+    display inline: <input> <a> <br>
+    display inline-block: <span>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    The fix for the box model adds the right amount of padding and border to keep the size of the area the same. the fiz is box-sizing:border-box;
